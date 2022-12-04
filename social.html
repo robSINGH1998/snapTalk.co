@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"> -->
+   <script src="https://kit.fontawesome.com/aac3876611.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <link rel="stylesheet" href="social.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h2 class="logo">Snap<span>Talk</span></h2>
+
+            <div class="search-bar">
+            
+                <i class="fa-solid fa-magnifying-glass"></i>
+                
+                <input type="search" placeholder="Searc here for creators,inspirations and accounts">
+
+
+            </div>
+
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-picture">
+                    <img src="./images/p1.jpg">
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </nav>
+
+
+    <!-- -----------------------------manin----------------------------- -->
+
+<main>
+
+    <div class="container">
+
+        <div class="left">
+
+            <a class="profile">
+                <div class="profile-picture"><img src="./images/p2.jpg"></div>
+                <div class="handle">
+                    <h4>Robin</h4>
+                    <p class="text-muted">@robS</p>
+                </div>
+
+
+            </a>
+            <div class="sidebar">
+                <a class="menu-item active">
+                    
+                    <span><i class="fa-solid fa-house-user"></i></span><h3>Home</h3>
+                </a>
+                <a class="menu-item">
+                    <span><i class="fa-regular fa-compass"></i></span><h3>Explore</h3>
+                </a>
+                <a class="menu-item" id="notifications">
+                    <span><i class="fa-regular fa-bell"><small class="notification-count">5</small></i></span><h3>Notification</h3>
+                    <!-- -----------notification popup----------- -->
+
+                    <div class="notification-popup">
+                        <div>
+                            <div class="profile-picture"><img src="./images/p3.jpg"></div>
+                        
+                        <div class="notification-body">
+                            <b>Franklin jacobs</b> accepted your friend request
+                            <small class="text-muted">2 DAYS AGO</small>
+                        </div>
+                    </div>
+
+                    <!-- ------------------------------------  -->
+                        <div>
+                            <div class="profile-picture"><img src="./images/p4.jpg"></div>
+                        
+                        <div class="notification-body">
+                            <b>Alexander Kohler</b> liked your profile
+                            <small class="text-muted">36 MIN AGO</small>
+                        </div>
+                    </div>
+                        <div>
+                            <div class="profile-picture"><img src="./images/p5.jpg"></div>
+                        
+                        <div class="notification-body">
+                            <b>Regina Tiddeman</b> commented on your Post
+                            <small class="text-muted">4 HOUR AGO</small>
+                        </div>
+                    </div>
+                        <div>
+                            <div class="profile-picture"><img src="./images/p6.jpg"></div>
+                        
+                        <div class="notification-body">
+                            <b>Jonas Khanwald</b> and <b> 211 others</b> liked your Post
+                            <small class="text-muted">2 MIN AGO</small>
+                        </div>
+                    </div>
+                        <div>
+                            <div class="profile-picture"><img src="./images/p2.jpg"></div>
+                        
+                        <div class="notification-body">
+                            <b>Martha Nielsen</b> commented on your post you are tagged
+                            <small class="text-muted">1 WEEK AGO</small>
+                        </div>
+                    </div>
+                    </div>
+                </a>
+
+                <a class="menu-item" id="messages-notifications">
+                    <span><i class="fa-regular fa-envelope"><small class="notification-count"> 10</small></i></span><h3>Messages</h3>
+                </a>
+                <a class="menu-item">
+                    <span><i class="fa-regular fa-bookmark"></i></span><h3>Bookmarks</h3>
+                </a>
+                <a class="menu-item">
+                    <span><i class="fa-regular fa-star"></i></span><h3>Premium</h3>
+                </a>
+                <a class="menu-item" id="theme">
+                    <span><i class="fa-sharp fa-solid fa-sliders"></i></span><h3>Theme</h3>
+                </a>
+                <a class="menu-item">
+                     <span><i class="fa-sharp fa-solid fa-gear"></i></span><h3>Settings</h3>
+                </a>
+                    
+               
+
+
+            </div>
+            <label for="create-post" class=" btn btn-primary">Create Post</label>
+        </div>
+        <div class="middle">
+
+            <div class="stories">
+                <div class="story">
+                    <div class="profile-picture"><img src="./images/p2.jpg"></div>
+                    <p class="name">Your Story</p>
+                </div>
+                <div class="story">
+                    <div class="profile-picture"><img src="./images/p1.jpg"></div>
+                    <p class="name">Hannah khanwald</p>
+                </div>
+                <div class="story">
+                    <div class="profile-picture"><img src="./images/p3.jpg"></div>
+                    <p class="name">Katherine Langford</p>
+                </div>
+                <div class="story">
+                    <div class="profile-picture"><img src="./images/p5.jpg"></div>
+                    <p class="name">Kristine stubbs</p>
+                </div>
+                <div class="story">
+                    <div class="profile-picture"><img src="./images/p6.jpg"></div>
+                    <p class="name">Smith steve</p>
+                </div>
+
+            </div>
+
+            <form class="create-post">
+                <div class="profile-picture"><img src="./images/p4.jpg"></div>
+                <input type="text" placeholder="Whats on your mind Robin ?" id="create-post">
+                <input type="submit" value="post" class="btn btn-primary">
+            </form>
+
+            <!-- ------------------------FEEDS---------------------- -->
+
+            <div class="feeds">
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-picture"><img src="./images/p4.jpg"></div>
+                            <div class="info">
+                                <h3>Virat Kohli</h3>
+                                <small> Delhi, 3 HOURS AGO</small>
+                            
+                            </div>
+                           
+                        </div>
+                        <span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+                    </div>
+
+                    <div class="photo"><img src="./images/feed1.jpg"></div>
+                    <div class="action-button">
+                        <div class="interaction-buttons">
+                            <span><i class="fa-regular fa-heart"></i></span>
+                            <span><i class="fa-regular fa-message"></i></span>
+                            <span><i class="fa-solid fa-share"></i></span>
+
+                        </div>
+
+                        <div class="bookmark">
+                            <span><i class="fa-regular fa-bookmark"></i></span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="./images/p4.jpg"></span>
+                        <span><img src="./images/p1.jpg"></span>
+                        <span><img src="./images/p5.jpg"></span>
+
+                        <p>Liked by<b> Robin Singh </b> and <b>1,234 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p><b>Virat Kohli</b> Lorem ipsum dolor sit.<span class="hash-tag">#DowntoEarth</span></p>
+                    </div>
+
+                    <div class=" comments text-muted">View all 476 comments</div>
+
+
+
+                </div>
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-picture"><img src="./images/p4.jpg"></div>
+                            <div class="info">
+                                <h3>Virat Kohli</h3>
+                                <small> Delhi, 3 HOURS AGO</small>
+                            
+                            </div>
+                           
+                        </div>
+                        <span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+                    </div>
+
+                    <div class="photo"><img src="./images/feed3.jpg"></div>
+                    <div class="action-button">
+                        <div class="interaction-buttons">
+                            <span><i class="fa-regular fa-heart"></i></span>
+                            <span><i class="fa-regular fa-message"></i></span>
+                            <span><i class="fa-solid fa-share"></i></span>
+
+                        </div>
+
+                        <div class="bookmark">
+                            <span><i class="fa-regular fa-bookmark"></i></span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="./images/p4.jpg"></span>
+                        <span><img src="./images/p1.jpg"></span>
+                        <span><img src="./images/p5.jpg"></span>
+
+                        <p>Liked by<b> Robin Singh </b> and <b>1,234 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p><b>Virat Kohli</b> Lorem ipsum dolor sit.<span class="hash-tag">#DowntoEarth</span></p>
+                    </div>
+
+                    <div class=" comments text-muted">View all 476 comments</div>
+
+
+
+                </div>
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-picture"><img src="./images/p4.jpg"></div>
+                            <div class="info">
+                                <h3>Virat Kohli</h3>
+                                <small> Delhi, 3 HOURS AGO</small>
+                            
+                            </div>
+                           
+                        </div>
+                        <span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+                    </div>
+
+                    <div class="photo"><img src="./images/feed2.jpg"></div>
+                    <div class="action-button">
+                        <div class="interaction-buttons">
+                            <span><i class="fa-regular fa-heart"></i></span>
+                            <span><i class="fa-regular fa-message"></i></span>
+                            <span><i class="fa-solid fa-share"></i></span>
+
+                        </div>
+
+                        <div class="bookmark">
+                            <span><i class="fa-regular fa-bookmark"></i></span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="./images/p4.jpg"></span>
+                        <span><img src="./images/p1.jpg"></span>
+                        <span><img src="./images/p5.jpg"></span>
+
+                        <p>Liked by<b> Robin Singh </b> and <b>1,234 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p><b>Virat Kohli</b> Lorem ipsum dolor sit.<span class="hash-tag">#DowntoEarth</span></p>
+                    </div>
+
+                    <div class=" comments text-muted">View all 476 comments</div>
+
+
+
+                </div>
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-picture"><img src="./images/p4.jpg"></div>
+                            <div class="info">
+                                <h3>Virat Kohli</h3>
+                                <small> Delhi, 3 HOURS AGO</small>
+                            
+                            </div>
+                           
+                        </div>
+                        <span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+                    </div>
+
+                    <div class="photo"><img src="./images/feed4.jpg"></div>
+                    <div class="action-button">
+                        <div class="interaction-buttons">
+                            <span><i class="fa-regular fa-heart"></i></span>
+                            <span><i class="fa-regular fa-message"></i></span>
+                            <span><i class="fa-solid fa-share"></i></span>
+
+                        </div>
+
+                        <div class="bookmark">
+                            <span><i class="fa-regular fa-bookmark"></i></span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="./images/p4.jpg"></span>
+                        <span><img src="./images/p1.jpg"></span>
+                        <span><img src="./images/p5.jpg"></span>
+
+                        <p>Liked by<b> Robin Singh </b> and <b>1,234 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p><b>Virat Kohli</b> Lorem ipsum dolor sit.<span class="hash-tag">#DowntoEarth</span></p>
+                    </div>
+
+                    <div class=" comments text-muted">View all 476 comments</div>
+
+
+
+                </div>
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-picture"><img src="./images/p4.jpg"></div>
+                            <div class="info">
+                                <h3>Virat Kohli</h3>
+                                <small> Delhi, 3 HOURS AGO</small>
+                            
+                            </div>
+                           
+                        </div>
+                        <span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+                    </div>
+
+                    <div class="photo"><img src="./images/feed5.jpg"></div>
+                    <div class="action-button">
+                        <div class="interaction-buttons">
+                            <span><i class="fa-regular fa-heart"></i></span>
+                            <span><i class="fa-regular fa-message"></i></span>
+                            <span><i class="fa-solid fa-share"></i></span>
+
+                        </div>
+
+                        <div class="bookmark">
+                            <span><i class="fa-regular fa-bookmark"></i></span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="./images/p4.jpg"></span>
+                        <span><img src="./images/p1.jpg"></span>
+                        <span><img src="./images/p5.jpg"></span>
+
+                        <p>Liked by<b> Robin Singh </b> and <b>1,234 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p><b>Virat Kohli</b> Lorem ipsum dolor sit.<span class="hash-tag">#DowntoEarth</span></p>
+                    </div>
+
+                    <div class=" comments text-muted">View all 476 comments</div>
+
+
+
+                </div>
+                <div class="feed">
+                    <div class="head">
+                        <div class="user">
+                            <div class="profile-picture"><img src="./images/p4.jpg"></div>
+                            <div class="info">
+                                <h3>Virat Kohli</h3>
+                                <small> Delhi, 3 HOURS AGO</small>
+                            
+                            </div>
+                           
+                        </div>
+                        <span class="edit"><i class="fa-solid fa-ellipsis"></i></span>
+                    </div>
+
+                    <div class="photo"><img src="./images/feed6.jpg"></div>
+                    <div class="action-button">
+                        <div class="interaction-buttons">
+                            <span><i class="fa-regular fa-heart"></i></span>
+                            <span><i class="fa-regular fa-message"></i></span>
+                            <span><i class="fa-solid fa-share"></i></span>
+
+                        </div>
+
+                        <div class="bookmark">
+                            <span><i class="fa-regular fa-bookmark"></i></span>
+                        </div>
+                        
+                    </div>
+
+                    <div class="liked-by">
+                        <span><img src="./images/p4.jpg"></span>
+                        <span><img src="./images/p1.jpg"></span>
+                        <span><img src="./images/p5.jpg"></span>
+
+                        <p>Liked by<b> Robin Singh </b> and <b>1,234 others</b></p>
+                    </div>
+
+                    <div class="caption">
+                        <p><b>Virat Kohli</b> Lorem ipsum dolor sit.<span class="hash-tag">#DowntoEarth</span></p>
+                    </div>
+
+                    <div class=" comments text-muted">View all 476 comments</div>
+
+
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="right">
+            <div class="messages">
+                <div class="heading">
+                    <h4>Messages</h4><i class="fa-regular fa-pen-to-square"></i>
+                </div>
+                <div class="search-bar">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" placeholder="search messages" id="message-search">
+                </div>
+
+                <div class="category">
+                    <h6 class="active">Primary</h6>
+                    <h6>General</h6>
+                    <h6 class="message-requests">Requests (3)</h6>
+
+                </div>
+
+                <!-- <div class="message">
+                    <div class="profile-picture"><img src="./images/p4.jpg"></div>
+                    <div class="active"></div>
+                
+
+                <div class="message-body">
+                    <h5>Jeff Dahrem</h5>
+                    <p class="text-muted">Hello you coming?</p>
+                </div>
+
+                </div> -->
+
+                <div class="message">
+                    <div class="profile-picture"><img src="./images/p4.jpg">
+                    <div class="active"></div>
+                </div>
+                
+
+                <div class="message-body">
+                    <h5>Jeff Dahrem</h5>
+                    <p class="text-bold">Hello you coming?</p>
+                </div>
+
+                </div>
+
+                <div class="message">
+                    <div class="profile-picture"><img src="./images/p6.jpg"></div>
+                
+
+                <div class="message-body">
+                    <h5>Mark Henry</h5>
+                    <p class="text-muted">I am busy right now</p>
+                </div>
+
+                </div>
+                <div class="message">
+                    <div class="profile-picture"><img src="./images/p6.jpg"></div>
+                
+
+                <div class="message-body">
+                    <h5>Kristina Stolins</h5>
+                    <p class="text-muted">Turn left from cityhood</p>
+                </div>
+
+                </div>
+
+                <div class="message">
+                    <div class="profile-picture"><img src="./images/p3.jpg"></div>
+                
+
+                <div class="message-body">
+                    <h5>Michael scofield</h5>
+                    <p class="text-muted">hmm bye</p>
+                </div>
+
+                </div>
+
+                <div class="message">
+                    <div class="profile-picture"><img src="./images/p2.jpg">
+                    <div class="active"></div>
+                </div>
+                
+
+                <div class="message-body">
+                    <h5>Peaky Blinders</h5>
+                    <p class="text-bold">Good Morning</p>
+                </div>
+
+                </div>
+
+
+         </div>
+
+         <div class="friend-requests">
+            <h4>Requests</h4>
+            <div class="request">
+                <div class="info">
+                    <div class="profile-picture"><img src="./images/p3.jpg"></div>
+                
+                <div>
+                    <h5>Thomas Shelby</h5>
+                    <p class="text-muted">
+                        3 mutual friends
+                    </p>
+                    
+
+                </div>
+            </div>
+                <div class="actions">
+                    <button class="btn btn-primary">
+                        Accept
+                    </button>
+                    <button class="btn">
+                        Decline
+                    </button>
+                </div>
+
+
+            </div>
+            <div class="request">
+                <div class="info">
+                    <div class="profile-picture"><img src="./images/p6.jpg"></div>
+                
+                <div>
+                    <h5>Freddie thorne</h5>
+                    <p class="text-muted">
+                        45 mutual friends
+                    </p>
+                    
+
+                </div>
+            </div>
+                <div class="actions">
+                    <button class="btn btn-primary">
+                        Accept
+                    </button>
+                    <button class="btn">
+                        Decline
+                    </button>
+                </div>
+
+
+            </div>
+            <div class="request">
+                <div class="info">
+                    <div class="profile-picture"><img src="./images/p8.webp"></div>
+                
+                <div>
+                    <h5>Lisa Vicari</h5>
+                    <p class="text-muted">
+                        99 mutual friends 
+                    </p>
+                    
+
+                </div>
+            </div>
+                <div class="actions">
+                    <button class="btn btn-primary">
+                        Accept
+                    </button>
+                    <button class="btn">
+                        Decline
+                    </button>
+                </div>
+
+
+            </div>
+         </div>
+
+
+            
+        </div>
+    </div>
+</main>
+
+<div class="customize-theme">
+    <div class="card">
+        <h2>Customize your view</h2>
+       <p class="text-muted">Manage your font size, color, and background.</p>
+                
+        <div class="font-size">
+            <h4>Font Size </h4>
+           <div>
+               <h6>Aa</h6>
+           <div class="choose-size">
+               <span class="font-size-1"></span>
+               <span class="font-size-2"></span>
+               <span class="font-size-3 active"></span>
+               <span class="font-size-4"></span>
+               <span class="font-size-5"></span>
+           </div>
+           <h3>Aa</h3>
+           </div>
+        </div>
+        <div class="color">
+            <h4>Color</h4>
+            <div class="choose-color">
+            <span class="color-1 active"></span>
+            <span class="color-2"></span>
+            <span class="color-3"></span>
+            <span class="color-4"><span>
+            <span class="color-5"></span>
+            <span class="color-6"></span>
+            </div>
+        </div>
+
+
+        <div class= "background">
+            <h4>Background</h4>
+             <div class="choose-bg">
+                 <div class="bg-1 active">
+                     <span></span>
+                     <h5 for="bg-1">Light</h5>
+                 </div>
+                 <div class="bg-2">
+                     <span></span>
+                     <h5>Dim</h5>
+                 </div>
+                 <div class="bg-3">
+                     <span></span>
+                     <h for="bg-3">Lights Out</h5>
+                 </div>
+             </div>
+        </div>
+        
+     </div>
+</div>
+
+<script src="social.js"></script>
+
+
+
+
+</body>
+</html>
